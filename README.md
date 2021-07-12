@@ -12,18 +12,6 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 
 ---
 
-# Contest scoping
-
-## 🐺 C4: Set up repos
-- [ ] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [ ] Get GitHub handles from sponsor.
-- [ ] Add sponsor to this private repo with 'maintain' level access.
-- [ ] Send the sponsor contact the url for this repo to follow the instructions below and add contracts here. (Example message below)
-
-> I just sent the invitation to access a private repo we'll use to scope your contest. Once you accept the invite (it should be in your email), the repo will walk you through what we need step-by-step.
-
-- [ ] Delete this checklist and wait for sponsor to complete their scoping checklist.
-
 # ⭐️ Sponsor: Provide marketing details
 
 - [x] Your logo (URL or add file to this repo - SVG or other vector format preferred)
@@ -97,24 +85,23 @@ Important Areas Of Concern:
 # Contest prep
 
 ## 🐺 C4: Contest prep
-- [ ] Rename this repo to reflect contest date (if applicable)
-- [ ] Rename contest H1 below
-- [ ] Add link to report form in contest details below
-- [ ] Update pot sizes
-- [ ] Fill in start and end times in contest bullets below.
+- [x] Rename this repo to reflect contest date (if applicable)
+- [x] Rename contest H1 below
+- [x] Add link to report form in contest details below
+- [x] Update pot sizes
+- [x] Fill in start and end times in contest bullets below.
 - [ ] Move any relevant information in "contest scope information" above to the bottom of this readme.
-- [ ] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
+- [x] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
 - [ ] Delete this checklist.
 
 ---
 
-# Sponsorname contest details
-- TBD main award pot
-- TBD gas optimization award pot
+# Spartan Protocol contest details
+- $80,000USDC main award pot
 - Join [C4 Discord](https://discord.gg/EY5dvm3evD) to register
-- Submit findings [using the C4 form](https://code423n4.com/YYYY-MM-sponsorName-contest/submit)
+- Submit findings [using the C4 form](https://code423n4.com/2021-07-spartan-protocol-contest/submit)
 - [Read our guidelines for more details](https://code423n4.com/compete)
-- Starts TBD XXX XXX XX 00:00 UTC
-- Ends TBD XXX XXX XX 23:59 UTC
+- Starts 2021-07-15 00:00 UTC
+- Ends 2021-07-21 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
