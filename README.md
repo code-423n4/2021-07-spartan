@@ -1,42 +1,14 @@
-# ✨ So you want to sponsor a contest
+# Spartan Protocol contest details
+- $80,000USDC main award pot
+- Join [C4 Discord](https://discord.gg/EY5dvm3evD) to register
+- Submit findings [using the C4 form](https://code423n4.com/2021-07-spartan-protocol-contest/submit)
+- [Read our guidelines for more details](https://code423n4.com/compete)
+- Starts 2021-07-15 00:00 UTC
+- Ends 2021-07-21 23:59 UTC
 
-This `README.md` contains a set of checklists for our contest collaboration.
+[spartanprotocol.org](https://spartanprotocol.org/) • [@SpartanProtocol](https://twitter.com/SpartanProtocol) • [telegram](https://t.me/SpartanProtocolOrg) • [discord](https://discord.gg/wQggvntnGk) • [documentation](https://docs.spartanprotocol.org/)
 
-Your contest will use two repos: 
-- **a _contest_ repo** (this one), which is used for scoping your contest and for providing information to contestants (wardens)
-- **a _findings_ repo**, where issues are submitted. (We'll set that one up later.) 
-
-Ultimately, when we launch the contest, this contest repo will be made public and will contain the smart contracts to be reviewed and all the information needed for contest participants. The findings repo will be made public after the contest is over and your team has mitigated the identified issues.
-
-Some of the checklists in this doc are for **C4 (🐺)** and some of them are for **you as the contest sponsor (⭐️)**.
-
----
-
-# ⭐️ Sponsor: Provide marketing details
-
-- [x] Your logo (URL or add file to this repo - SVG or other vector format preferred)
-See SPARTA.svg in the root folder
-- [x] Your primary Twitter handle
-https://twitter.com/SpartanProtocol
-@SpartanProtocol
-- [x] Your Discord URI
-Telegram is our main channel: 
-https://t.me/SpartanProtocolOrg
-We have a community-curated Discord but its in early stages:
-https://discord.gg/wQggvntnGk
-- [x] Your website
-https://spartanprotocol.org/
-- [x] Optional: Do you have any quirks, recurring themes, iconic tweets, community "secret handshake" stuff we could work in? How do your people recognize each other, for example? 
-Anything Spartan themed. 'Join the shield wall'
-- [x] Optional: your logo in Discord emoji format
-We dont have one
-
-Docs (we have community-curated documentation):
-https://docs.spartanprotocol.org/
-
----
-
-# Contest scope information
+## Contest scoping
 
 - Pool.sol : 365 lines : Holds Protocol Liquidity : High Importance
 - Router.sol : 358 lines : Routes funds, Incentivises LP's : Medium Importance
@@ -79,29 +51,3 @@ Important Areas Of Concern:
 - DaoVault - Abusing rewards and gaining protocol level control, can funds be stuck?
 - BondVault - Leaving vault before bonding period is finished, can funds be stuck?
 - Router - Fee Manipulation
-
----
-
-# Contest prep
-
-## 🐺 C4: Contest prep
-- [x] Rename this repo to reflect contest date (if applicable)
-- [x] Rename contest H1 below
-- [x] Add link to report form in contest details below
-- [x] Update pot sizes
-- [x] Fill in start and end times in contest bullets below.
-- [ ] Move any relevant information in "contest scope information" above to the bottom of this readme.
-- [x] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
-- [ ] Delete this checklist.
-
----
-
-# Spartan Protocol contest details
-- $80,000USDC main award pot
-- Join [C4 Discord](https://discord.gg/EY5dvm3evD) to register
-- Submit findings [using the C4 form](https://code423n4.com/2021-07-spartan-protocol-contest/submit)
-- [Read our guidelines for more details](https://code423n4.com/compete)
-- Starts 2021-07-15 00:00 UTC
-- Ends 2021-07-21 23:59 UTC
-
-This repo will be made public before the start of the contest. (C4 delete this line when made public)
